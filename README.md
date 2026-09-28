@@ -1,13 +1,9 @@
-# TaskCLI - Gestionnaire de Tâches en CLI
+# TaskAPI by Junior
+API REST faite sur Termux à Abidjan 🇨🇮
 
-Un gestionnaire de tâches simple, rapide et puissant directement dans ton terminal.
+Endpoints:
+- GET / -> status
+- GET /tasks -> liste tâches
+- POST /tasks -> ajouter tâche
 
-## 🚀 Installation
-
-``bash
-git clone git@github.com:emilymargaux33-dev/Taskcli.git
-cd taskcli
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-
+Run: python api.py
